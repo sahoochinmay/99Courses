@@ -23,7 +23,7 @@
   color: black !important;
 }
 .brand {
-  height: 50px;
+  height: 30px;
   width: 200px;
 }
 
@@ -32,7 +32,9 @@
 }
 .navbar-brand h1 {
   text-shadow: 50px 50px 50px white !important;
+  font-size: 25px !important;
 }
+
 /* home here */
 
 #intro {
@@ -228,6 +230,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#user_bg h1::after {
+  content: "";
+  display: block;
+  width: 250px;
+  height: 3px;
+  background-color: white;
+  margin: 10px auto;
+}
 .user_title {
   padding: 25px 20px;
   font: 800;
@@ -253,6 +263,14 @@
 
 #social {
   padding: 50px 0;
+}
+#social h1:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 4px;
+  margin: 10px auto;
+  background: linear-gradient(111deg, #2ecc71, #349);
 }
 #social button {
   display: block;
@@ -285,14 +303,34 @@
 .fa-facebook-official {
   color: #3fd07c;
 }
+.fa-facebook-official:hover {
+  color: #1194f4;
+  transform: translateY(4px);
+  cursor: pointer;
+}
 .fa-instagram {
   color: #30ba94;
 }
+.fa-instagram:hover {
+  color: #ee3d5e;
+  transform: translateY(4px);
+  cursor: pointer;
+}
 .fa-twitter {
-  color: #30b4a1;
+  color: #30ba94;
+}
+.fa-twitter:hover {
+  color: #4c9ce6;
+  transform: translateY(4px);
+  cursor: pointer;
 }
 .fa-youtube-square {
   color: #30a5ab;
+}
+.fa-youtube-square:hover {
+  color: #f80000;
+  transform: translateY(4px);
+  cursor: pointer;
 }
 /* footer-section here */
 

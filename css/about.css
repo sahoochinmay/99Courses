@@ -1,0 +1,42 @@
+#about p:before {
+  content: "";
+  margin-right: 10px;
+  background: linear-gradient(111deg, #2ecc71, #3498db);
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+}
+
+#about {
+  padding: 0 5% 3% 5%;
+}
+
+#about p {
+  letter-spacing: 03px;
+
+  margin: 50px 0;
+}
+
+/*Owner Section*/
+
+#owner {
+  padding: 30px 0;
+}
+.small-container {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left-owner,
+.right-owner {
+  flex-basis: 40%;
+}
+.left-owner img,
+.right-owner img {
+  margin: auto;
+  width: 60%;
+  border-radius: 50%;
+}
