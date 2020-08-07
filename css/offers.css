@@ -1,0 +1,40 @@
+#about {
+  padding-top: 100px;
+}
+.heading::after {
+  content: "";
+  display: block;
+  width: 550px;
+  height: 5px;
+  margin: 10px auto;
+  background: linear-gradient(111deg, #2ecc71, #349);
+}
+.imgsize {
+  height: 200px;
+  width: 350px;
+}
+
+/* premimum  section */
+
+#premium-offers {
+  padding-top: 60px;
+}
+.ofimgsize {
+  height: 250px !important;
+  width: 300px !important;
+}
+.offerper {
+  font-size: 20px;
+  font-weight: 800;
+  color: black !important;
+}
+.btn {
+  letter-spacing: 1px !important;
+  font-weight: bolder !important;
+  transition: transform 0.7s ease;
+  color: white !important;
+  background: linear-gradient(111deg, #2ecc71, #349);
+}
+.btn:hover {
+  transform: scale(1.1);
+}

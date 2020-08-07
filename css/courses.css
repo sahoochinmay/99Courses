@@ -12,7 +12,6 @@
 }
 .nav-link {
   font-weight: 500;
-  position: relative;
 }
 .weblogo {
   color: white !important;
@@ -33,4 +32,69 @@
 .navbar-brand h1 {
   text-shadow: 50px 50px 50px white !important;
   font-size: 25px !important;
+}
+
+/* effects  */
+
+.title_effects_right {
+  letter-spacing: 3px !important;
+  text-shadow: 1px 3px 3px #3498db !important;
+  font-weight: bolder !important;
+}
+.title_effects_left {
+  letter-spacing: 3px !important;
+  text-shadow: 1px 3px 3px #2ecc71 !important;
+  font-weight: bolder !important;
+}
+.first_letter_right {
+  font-size: 40px;
+  text-shadow: 1px 3px 3px #3498db;
+}
+.first_letter_left {
+  font-size: 40px;
+  text-shadow: 1px 3px 3px #2ecc71;
+}
+.backlinear {
+  background: linear-gradient(111deg, #2ecc71, #349) !important;
+}
+/* course section */
+
+#course-home {
+  padding-top: 80px;
+}
+.heading::after {
+  content: "";
+  display: block;
+  width: 350px;
+  height: 5px;
+  margin: 10px auto;
+  background: linear-gradient(111deg, #2ecc71, #349);
+}
+.imgsize {
+  height: 178px !important;
+  width: 283px !important;
+}
+.btn {
+  letter-spacing: 3px !important;
+  font-weight: bolder !important;
+  transition: transform 0.7s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+/* trending section */
+.trending-course {
+  padding: 10px;
+}
+
+/*Footer Section*/
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+footer h6 {
+  color: white;
+  text-shadow: 2px 1px 3px black;
 }

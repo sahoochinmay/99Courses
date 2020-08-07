@@ -1,0 +1,36 @@
+/* contact home */
+#home {
+  padding-top: 100px;
+}
+.contact-img {
+  width: 100%;
+}
+.heading::after {
+  content: "";
+  display: block;
+  width: 350px;
+  height: 5px;
+  margin: 10px auto;
+  background: linear-gradient(111deg, #2ecc71, #349);
+}
+.address {
+  height: auto;
+}
+/* contact form */
+#form {
+  margin: 50px 0;
+  padding: 30px 0 30px 0;
+}
+.btn {
+  letter-spacing: 3px !important;
+  font-weight: bolder !important;
+  transition: transform 0.7s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+/* effects  */
+.backlinear {
+  background: linear-gradient(111deg, #2ecc71, #349) !important;
+}
